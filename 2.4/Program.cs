@@ -9,8 +9,10 @@ namespace _2._4
     {
         static void Main(string[] args)
         {
-            Random rand = new Random();
-            var number = rand.Next(0, 100);
+            Random random = new Random();
+            var minValue = 0;
+            var maxValue = 100;
+            var number = random.Next(minValue, maxValue);
             var moduleMultiplicity1 = 3;
             var moduleMultiplicity2 = 5;
             var summ = number;
